@@ -114,6 +114,7 @@ def main():
     else:
         values = [args.value]
     for value in values:
+        print(data)
         plot_data(data, value=value)
 
 if __name__ == "__main__":
